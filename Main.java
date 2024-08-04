@@ -213,8 +213,6 @@ public class Main{
                             ArrayList<Message> newMessages = contact.getMessages();
                             newMessages.add(message);
                             contact.setMessages(newMessages);
-                            contacts.remove(contact);
-                            contacts.add(contact);
                         }
                     }
                 }
